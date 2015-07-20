@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f20362b4-d2ab-4f46-87b4-06dcf4e3c88a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>sandboxExamples\Class.py</StartupFile>
+    <StartupFile>sandboxExamples\Inheritance.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="sandboxExamples\Inheritance.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sandboxExamples\MethodOverloading.py" />
     <Compile Include="sandboxExamples\NeuralNetwork_pyBrain.py" />
     <Compile Include="sandboxExamples\Class.py" />
     <Compile Include="sandboxExamples\ClassEncapsulation.py">
